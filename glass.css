@@ -71,19 +71,14 @@ body::after{
 .container .card .content{
     padding: 20px;
     text-align: center;
-    transform: translateY(100px);
-    opacity: 0;
-    transition: 0.2s ;
+  
 }
 
-.container .card:hover .content{
-   transform: translateY(0px);
-   opacity: 1;
 
-}
+
 .container .card .content h2{
     position: absolute;
-    top: -120px;
+    top: -40px;
     right: 30px;
     font-size: 8em;
     color: rgba(86, 96, 128, 0.5);
